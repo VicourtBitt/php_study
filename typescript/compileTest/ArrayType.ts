@@ -4,6 +4,8 @@ enum Gender {
     NaoBinario = 'Nao-Binario'
 }
 
+type GenderUnion = 'Masculino' | 'Feminino' | 'NaoBinario'
+
 type UserInfo = {
     firstName?: string,
     lastName?: string,
