@@ -1,5 +1,10 @@
-alunos = [{nome: 'Pedro', disciplina: "Python", nota: 8}, {nome: 'Cathia', disciplina: 'C++', nota: 4}]
+alunos = [
+  {nome: 'Pedro', disciplina: "Python"},
+  {nome: 'Cathia', disciplina: 'C++'}
+]
 
 alunos.each do |aluno|
-  puts(aluno[:disciplina])
+  puts("O aluno #{aluno[:nome]}")
+  puts("faz curso de #{aluno[:disciplina]}")
 end
+

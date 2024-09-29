@@ -13,3 +13,4 @@ while tecla != 's' do
 end
 
 puts(alunos)
+
